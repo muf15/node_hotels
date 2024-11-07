@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const db = require("./db");
 require("dotenv").config();
-const passport = require("./auth");
+const passport = require("./6auth");
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
